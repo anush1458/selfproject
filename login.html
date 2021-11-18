@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">
+            <div class="log-part">
+                <img src="logo.jpg" alt="">
+                <h1>Book Your Stay</h1>
+            </div>
+        
+            <h1>Welcome Back !</h1>
+            <div class="login-container">
+                <h1>Login</h1>
+                <h3>Email</h3>
+                <input id="email" type="email" placeholder="Email">
+                <br><span class="error-case-email"></span>
+                <h3>Password</h3>
+                <input id="password" type="password" placeholder="password">
+                <br><span class="error-case-pass"></span>
+                <br> <br><br>
+                <button type="submit" id="Login" onclick="location.href='hotels.html';"><a href="" id="href">submit</a></button>
+                <p>New user? <a href="signup.html">Create Account</a></p>
+            </div>
+        </div>
+       <div class="rightside">
+       </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
